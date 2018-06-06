@@ -2,19 +2,60 @@
 <html lang="en">
    <head>
       <title>Formul+AOE-rio de cadastro</title>
-   </head>
-   <body>
+      <style>
+      	div#formulario {
+      		width:300px;
+      		height:330px;
+      		background-color:#70D63D;
+      		margin:0px auto 0px auto;
+      		padding:10px;
+      		border-top:50px;
+      		margin-top:0px;
+      		box-shadow:1px 1px 3px black;
+      	}
+      	
+      	header#cabecalho {
+      		border-bottom:1px dashed black;
+      	}   	
+      	
+      	header#cabecalho h1 {
+      		text-align:center;
+      		margin-bottom:10px;
+      		margin-top:-10px;
+      		text-shadow:2px 1px 2px green;
+      	}
+      	
+      	div#input {
+      		margin-top:30px;
+      		font-size:14pt;
+      		font-family:Georgia, serif;
+      		background-color:#BAFA77;
+      		padding:10px;
+      		box-shadow:1px 1px 3px black;
+      	}
+      	
+      	
+      </style>
+</head>
+<body>
+   	<div id="formulario">
       <form>
-      	<span>Primeiro nome:</span><br/>
-      	<input type="text" name="nome" /><br/>
-      	<span>Sobrenome:</span><br/>
-      	<input type="text" name="nome"/><br/>
-      	<span>Digite seu Email:</span><br/>
-      	<input type="email" name="email"/><br/>
-      	<span>Data de nascimento</span></br>
-      	<input type="date" name="dataDeNascimento"/><br/>
-      	<span>Telefone</span><br/>
-      	<input type="tel" name="telefone"/>
+      	<header id="cabecalho">
+      		<h1> Cadastre-se</h1>
+      	</header>
+      	<div id="input">
+      		<span>Primeiro nome:</span><br/>
+      		<input type="text" name="nome" id="campo "/><br/>
+      		<span>Sobrenome:</span><br/>
+      		<input type="text" name="nome" id="campo "/><br/>
+      		<span>Digite seu Email:</span><br/>
+      		<input type="email" name="email"  id="campo "/><br/>
+      		<span>Data de nascimento</span></br>
+      		<input type="date" name="dataDeNascimento"  /><br/>
+      		<span>Telefone</span><br/>
+      		<input type="tel" name="telefone" id="campo "/>
+      	</div>
       </form>
+     </div>
    </body>
 </html>
